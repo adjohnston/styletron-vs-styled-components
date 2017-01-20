@@ -1,4 +1,5 @@
 import React from 'react'
 import { render } from 'react-dom'
+import Button from 'atoms/button'
 
-render(<div>I live</div>, document.querySelector('#app'))
+render(<Button>click me!</Button>, document.querySelector('#app'))
