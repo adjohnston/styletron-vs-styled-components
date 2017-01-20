@@ -34,5 +34,12 @@ export default {
       exclude: /node_modules/,
       loader: 'babel'
     }]
+  },
+
+  resolve: {
+    alias: {
+      atoms: resolve(__dirname, 'src/atoms'),
+      styled: resolve(__dirname, 'src/styled')
+    }
   }
 }
